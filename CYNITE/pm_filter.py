@@ -555,7 +555,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/Developerr_Bots")
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url="https://t.me/Developerr_Bots")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -718,7 +718,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/developerr_bots')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/purohit_movies_backup')
                      ], [
                       InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='t.me/developerr_bots_support'),
                       InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/Developerr_Bots')
