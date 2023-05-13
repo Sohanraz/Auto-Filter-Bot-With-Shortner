@@ -519,9 +519,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   ],[
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-                  ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@TechnicalCynite")
                   ]]
+ 
+                 
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -555,7 +555,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/skg_base")
+            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/Developerr_Bots")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -718,10 +718,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/skg_base')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/developerr_bots')
                      ], [
                       InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='t.me/developerr_bots_support'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/skg_base')
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/Developerr_Bots')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
